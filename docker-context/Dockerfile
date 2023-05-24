@@ -5,7 +5,7 @@ RUN yum -y update && \
     yum -y install systemd cronie tar gzip git && \
     systemctl enable crond.service
 
-# Configure systemd
+# Configure crond
 COPY cron.d/* /etc/cron.d
 COPY mount-ramdisk.sh /usr/local/bin
 
