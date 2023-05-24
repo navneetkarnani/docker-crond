@@ -1,0 +1,1 @@
+@reboot root /bin/timedatectl set-timezone Asia/Kolkata

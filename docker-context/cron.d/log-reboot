@@ -1,0 +1,1 @@
+@reboot root echo "in crond after reboot"
